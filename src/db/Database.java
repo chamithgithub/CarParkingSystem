@@ -1,5 +1,6 @@
 package db;
 
+import javafx.scene.layout.AnchorPane;
 import model.Driver;
 import model.InParking;
 import model.OnDelivery;
@@ -13,7 +14,7 @@ public class Database {
     public static ArrayList<InParking> inParking = new ArrayList<>();
     public static ArrayList<OnDelivery> onDelivery = new ArrayList<>();
 
-
+    public static AnchorPane lowerpn;
 
     static {
         vehicles.add(new Vehicle("NA-3434","Bus","3500","60"));
